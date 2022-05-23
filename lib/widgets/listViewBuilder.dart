@@ -34,43 +34,62 @@ class ListViewBuilder extends StatelessWidget {
                     decoration: decoration,
                     // color: Colors.red,
                     child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceAround,
+                      mainAxisAlignment: MainAxisAlignment.start,
                       children: [
                         Image.asset(
                           items[index].imgUrl.toString(),
                           width: 70,
                           height: 70,
                         ),
-                        // SizedBox(
-                        //   width: 20,
-                        // ),
+                        SizedBox(
+                          width: 30,
+                        ),
                         Column(
-                          mainAxisAlignment: MainAxisAlignment.center,
+                          mainAxisAlignment: MainAxisAlignment.spaceAround,
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text(
-                              items[index].name.toString(),
-                              style: TextStyle(
-                                fontSize: 15,
-                                fontWeight: FontWeight.w600,
-                              ),
-                            ),
-                            Text(
-                              items[index].subName.toString(),
-                              style: TextStyle(
-                                fontSize: 10,
-                                fontWeight: FontWeight.w300,
-                              ),
+                            Container(
+                              width: 150,
+                              alignment: Alignment.centerLeft,
+                              child: Column(
+                                mainAxisAlignment: MainAxisAlignment.start,
+                                crossAxisAlignment: CrossAxisAlignment.center,
+                                children: [
+                                  Align(
+                                    alignment: Alignment.centerLeft,
+                                    child: Text(
+                                      items[index].name.toString(),
+                                      style: TextStyle(
+                                        fontSize: 15,
+                                        fontWeight: FontWeight.w600,
+                                      ),
+                                    ),
+                                  ),
+                                  Align(
+                                    alignment: Alignment.centerLeft,
+                                    child: Text(
+                                      items[index].subName.toString(),
+                                      style: TextStyle(
+                                        fontSize: 10,
+                                        fontWeight: FontWeight.w300,
+                                      ),
 
-                              // textAlign: TextAlign.right,
-                            ),
-                            Text(
-                              items[index].price.toString(),
-                              style: TextStyle(
-                                fontSize: 16,
-                                fontWeight: FontWeight.w800,
+                                      // textAlign: TextAlign.right,
+                                    ),
+                                  ),
+                                  Align(
+                                    alignment: Alignment.centerLeft,
+                                    child: Text(
+                                      items[index].price.toString(),
+                                      style: TextStyle(
+                                        fontSize: 16,
+                                        fontWeight: FontWeight.w800,
+                                      ),
+                                    ),
+                                  ),
+                                ],
                               ),
-                            ),
+                            )
                           ],
                         ),
                         Icon(
@@ -78,7 +97,7 @@ class ListViewBuilder extends StatelessWidget {
                           color: Color.fromARGB(255, 233, 197, 65)
                               .withOpacity(0.6),
                           size: 30,
-                        )
+                        ),
                       ],
                     )),
               );
