@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class ItemSelectContainer extends StatelessWidget {
-  ItemSelectContainer({required this.Icon, required this.title});
+class Categories extends StatelessWidget {
+  Categories({required this.Icon, required this.title});
 
   Image Icon;
   String title;

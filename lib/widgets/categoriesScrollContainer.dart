@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-import 'package:burger_app_ui/widgets/iteamSelectContainer.dart';
+import 'package:burger_app_ui/widgets/categories.dart';
 
-class ItemSelecter extends StatelessWidget {
-  const ItemSelecter({
+class CategoriesScrollContainer extends StatelessWidget {
+  const CategoriesScrollContainer({
     Key? key,
   }) : super(key: key);
 
@@ -16,7 +16,7 @@ class ItemSelecter extends StatelessWidget {
           SizedBox(
             width: 15,
           ),
-          ItemSelectContainer(
+          Categories(
             Icon: Image.asset(
               "assets/icons/hamburger.png",
             ),
@@ -25,7 +25,7 @@ class ItemSelecter extends StatelessWidget {
           SizedBox(
             width: 15,
           ),
-          ItemSelectContainer(
+          Categories(
             Icon: Image.asset(
               "assets/icons/fried-potatoes.png",
               width: 30,
@@ -35,7 +35,7 @@ class ItemSelecter extends StatelessWidget {
           SizedBox(
             width: 15,
           ),
-          ItemSelectContainer(
+          Categories(
             Icon: Image.asset(
               "assets/icons/soda.png",
               width: 30,
@@ -45,7 +45,7 @@ class ItemSelecter extends StatelessWidget {
           SizedBox(
             width: 15,
           ),
-          ItemSelectContainer(
+          Categories(
             Icon: Image.asset(
               "assets/icons/ice-cream.png",
               width: 30,
@@ -55,7 +55,7 @@ class ItemSelecter extends StatelessWidget {
           SizedBox(
             width: 15,
           ),
-          ItemSelectContainer(
+          Categories(
             Icon: Image.asset(
               "assets/icons/ice-cream.png",
               width: 30,
