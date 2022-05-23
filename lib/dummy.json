@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Bacon Burger",
+        "subName": "Smoked Bacon",
+        "imgUrl": "assets/images/pngwing.com(2).png",
+        "price" : "$49"
+    },
+    {
+        "name": "Stuffed Bean Burger",
+        "subName": "Bean Burger", 
+        "imgUrl": "assets/images/pngwing.com(3).png",
+        "price" : "$27"
+    },
+    
+    {
+        "name": "Potato Corn Burger",
+        "subName": "Pototo Corn",
+        "imgUrl": "assets/images/pngwing.com(1).png",
+        "price" : "$25"
+    },
+    {
+        "name": "Cheese burger",
+        "subName": "Cheese tasty",
+        "imgUrl": "assets/images/pngwing.com(3).png",
+        "price" : "$55"
+    },
+    {
+        "name": "Pizza Burger",
+        "subName": "Smoked Pizza",
+        "imgUrl": "assets/images/pngwing.com(2).png",
+        "price" : "$35"
+    },
+    {
+        "name": " Chicken  Burger.",
+        "subName": "chiken and cheese",
+        "imgUrl": "assets/images/pngwing.com.png",
+        "price" : "$65"
+    },
+    {
+        "name": "Beef Burger",
+        "subName": "Mexican Beef Burger",
+        "imgUrl": "assets/images/pngwing.com(1).png",
+        "price" : "$85"
+    }
+    
+    
+]
